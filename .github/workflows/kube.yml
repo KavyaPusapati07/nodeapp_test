@@ -1,0 +1,15 @@
+name: kubernatesLoadBalancer
+on: 
+  push:
+    branches: [ "main"]
+jobs:
+  connect_to_k8s:
+    runs-on: ubuntu-latest
+    steps:
+    - name: connect_to_server
+      run: |
+        ssh -i ubuntu@ec2-18-206-146-228.compute-1.amazonaws.com 
+        
+      
+
+    
