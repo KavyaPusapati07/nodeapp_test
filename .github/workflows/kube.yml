@@ -1,7 +1,7 @@
 name: kubernatesLoadBalancer
 on: 
   push:
-    branches: [ "main"]
+    branches: [ "master"]
 jobs:
   connect_to_k8s:
     runs-on: ubuntu-latest
